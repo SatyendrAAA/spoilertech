@@ -1,31 +1,51 @@
-# Hi, I'm SatyendrAAA 👋
+<p align="center">
+  <img src="https://raw.githubusercontent.com/SatyendrAAA/spoilertech/main/assets/profile-banner.svg" alt="SatyendrAAA — exploring AI, automation and practical solutions" width="100%">
+</p>
 
-### Exploring AI agents, automation & practical digital solutions
-
-I'm building my GitHub presence around useful ideas and small, practical projects. I'm especially interested in how AI agents and automation can make everyday work simpler.
-
-**Have an idea or a small project to discuss?** [Start a conversation on GitHub →](https://github.com/SatyendrAAA/spoilertech/issues/new?title=Project%20inquiry)
-
-> GitHub issues are public. Please don't post passwords, private data, payment details, or confidential project information.
+<h1 align="center">Hi, I'm SatyendrAAA 👋</h1>
+<p align="center"><strong>Curious about AI agents, automation &amp; tools that make everyday work easier.</strong></p>
+<p align="center">
+  <a href="https://github.com/SatyendrAAA?tab=repositories">Explore projects</a> ·
+  <a href="https://github.com/SatyendrAAA/spoilertech/issues/new?template=project-inquiry.yml">Discuss a project</a> ·
+  <a href="https://github.com/SatyendrAAA">GitHub profile</a>
+</p>
 
 ---
 
-## 🔍 What I'm exploring
+## A little about me
 
-- **AI agents:** experimenting with ideas for browser automation and memory.
-- **Automation:** exploring ways to reduce repetitive digital work.
-- **Practical projects:** learning by building and improving useful solutions.
+I'm building my GitHub presence around practical ideas and learning in public. My focus is on exploring how simple tools and automation can save time, make data easier to work with, and turn a clear problem into a useful solution.
 
-## 📌 Featured projects
+**Currently exploring:** Python · CSV data cleanup · automation · AI agent concepts
 
-### [CSV Cleaner](https://github.com/SatyendrAAA/spoilertech/tree/main/portfolio/csv-cleaner)
-A small Python command-line tool that tidies CSV data, removes exact duplicates, and preserves the original file. Includes a sample and tests.
+## Selected work
 
-### [my_agent](https://github.com/SatyendrAAA/my_agent)
-An early-stage AI agent project described as a skeleton for browser automation and memory. Follow the repository to see how it develops.
+### 🧹 [CSV Cleaner](https://github.com/SatyendrAAA/spoilertech/tree/main/portfolio/csv-cleaner)
 
-## 🤝 Let's connect
+A small, dependency-free Python tool that trims CSV data, removes exact duplicates and keeps the original file untouched. Includes a sample dataset and automated tests.
 
-If you have a clear idea, a small task, or feedback on a project, [open an issue](https://github.com/SatyendrAAA/spoilertech/issues/new?title=Project%20inquiry) with a short description and your timeline. Please share only information you're comfortable making public.
+**Good for exploring:** data preparation, repetitive cleanup and command-line workflows. [See the project →](https://github.com/SatyendrAAA/spoilertech/tree/main/portfolio/csv-cleaner)
 
-[Explore my repositories](https://github.com/SatyendrAAA?tab=repositories)
+### 🤖 [my_agent](https://github.com/SatyendrAAA/my_agent)
+
+An early-stage project described as an AI agent skeleton for browser automation and memory. It is a starting point, not a finished product. [View the repository →](https://github.com/SatyendrAAA/my_agent)
+
+## Ideas we can discuss
+
+Have a small, well-defined problem? I'm interested in conversations around:
+
+- Cleaning or organizing simple CSV data.
+- Exploring ways to automate repetitive digital tasks.
+- Early-stage AI agent ideas and practical experiments.
+
+The right approach depends on the requirements. Let's discuss the scope and feasibility before making commitments.
+
+## Let's connect
+
+[**Start a project inquiry →**](https://github.com/SatyendrAAA/spoilertech/issues/new?template=project-inquiry.yml)
+
+Share a brief, non-confidential description of the problem, the outcome you want and your preferred timeline. GitHub issues are **public**: never post passwords, private customer data, payment details or confidential files. If the inquiry template isn't available yet, you can [open a regular issue](https://github.com/SatyendrAAA/spoilertech/issues/new) instead.
+
+---
+
+<sub>Learning in public, one useful project at a time.</sub>

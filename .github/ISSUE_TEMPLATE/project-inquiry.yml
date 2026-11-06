@@ -1,0 +1,44 @@
+name: Project inquiry
+description: Discuss a small project or an automation idea.
+title: "Project inquiry: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reaching out! **This issue is public.** Do not share private customer data, passwords, payment details, confidential files or private contact information.
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem are you trying to solve?
+      description: A short, non-confidential description is enough.
+      placeholder: Describe the current process and what you would like to improve.
+    validations:
+      required: true
+  - type: textarea
+    id: outcome
+    attributes:
+      label: What outcome would be useful?
+      placeholder: For example, a cleaned CSV file or a simple automation.
+    validations:
+      required: true
+  - type: input
+    id: timeline
+    attributes:
+      label: Preferred timeline
+      placeholder: For example, flexible or within two weeks
+    validations:
+      required: false
+  - type: textarea
+    id: details
+    attributes:
+      label: Anything else to share publicly?
+      description: Please leave out confidential information and personal contact details.
+    validations:
+      required: false
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Public information
+      options:
+        - label: I understand that this issue is public and have not included sensitive information.
+          required: true
