@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b111b">
+  <meta name="description" content="A private, browser-based CSV quality dashboard and cleaner.">
+  <title>Data Lab — a little clarity for your data</title>
+  <link rel="stylesheet" href="styles.css">
+  <script type="module" src="app.mjs"></script>
+</head>
+<body>
+<div class="app-shell">
+  <aside class="sidebar">
+    <a class="brand" href="#overview" aria-label="Data Lab home"><span class="brand-mark">✳</span><span>data<span class="brand-light">lab</span><small>BY SATYENDRAAA</small></span></a>
+    <div class="side-label">WORKSPACE</div>
+    <nav class="nav" aria-label="Dashboard navigation">
+      <a class="active" href="#overview"><span>◈</span> Overview <span class="nav-dot"></span></a>
+      <a href="#data-preview"><span>▤</span> Data preview</a>
+      <a href="#quality"><span>◫</span> Quality report</a>
+    </nav>
+    <div class="side-bottom"><span class="lock">◇</span><div><strong>Private by design</strong><p>Data stays in your browser, not on a server.</p></div></div>
+  </aside>
+  <main class="main" id="overview">
+    <header class="topbar"><div class="breadcrumb">WORKSPACE <span>/</span> <strong>OVERVIEW</strong></div><div class="top-right"><span class="status-dot"></span> LOCAL SESSION <a href="https://github.com/SatyendrAAA/spoilertech/tree/main/portfolio/data-lab" target="_blank" rel="noreferrer">VIEW SOURCE ↗</a></div></header>
+    <section class="hero">
+      <div><div class="eyebrow"><span class="spark">✳</span> YOUR DATA, WITH MORE CLARITY</div><h1>Make sense of<br><em>the messy stuff.</em></h1><p>A little workspace to explore, clean, and understand your data. No uploads. No complicated setup. Just insight.</p><div class="hero-actions"><button class="button primary" id="choose-file" type="button"><span>↥</span> Import a CSV</button><button class="button secondary" id="load-demo" type="button">Explore sample <span>↗</span></button></div><p class="hero-note"><span>✧</span> Runs entirely in your browser <span class="note-divider">/</span> Free to explore</p></div>
+      <div class="hero-art" aria-hidden="true"><div class="orbit orbit-one"></div><div class="orbit orbit-two"></div><div class="orbit orbit-three"></div><div class="art-center"><span>✳</span><small>DATA<br>IN FOCUS</small></div><span class="orb a"></span><span class="orb b"></span><span class="art-plus">+</span><span class="art-tag tag-top">01 / COLLECT</span><span class="art-tag tag-bottom">02 / UNDERSTAND</span></div>
+    </section>
+    <section class="workspace">
+      <div class="section-heading"><div><div class="eyebrow muted">YOUR WORKSPACE <span> / 01</span></div><h2>The overview<span class="heading-dot">.</span></h2><p id="dataset-description">A quick look at the sample dataset.</p></div><div class="dataset-pill"><span class="status-dot"></span><span id="dataset-name">Sample dataset</span></div></div>
+      <div class="metrics" aria-label="Dataset summary">
+        <article class="metric"><div class="metric-top"><span>RECORDS</span><span class="metric-icon">▤</span></div><strong id="record-count">—</strong><p>Clean rows ready to use</p><div class="metric-line"></div></article>
+        <article class="metric"><div class="metric-top"><span>COMPLETENESS</span><span class="metric-icon">◫</span></div><strong id="completeness">—</strong><p>Filled cells in clean data</p><div class="metric-line mint"></div></article>
+        <article class="metric"><div class="metric-top"><span>DUPLICATES</span><span class="metric-icon">◇</span></div><strong id="duplicates">—</strong><p>Exact duplicates removed</p><div class="metric-line lilac"></div></article>
+        <article class="metric"><div class="metric-top"><span>MISSING VALUES</span><span class="metric-icon">⌁</span></div><strong id="missing">—</strong><p>Empty cells to review</p><div class="metric-line amber"></div></article>
+      </div>
+      <div class="content-grid">
+        <section class="card preview-card" id="data-preview"><div class="card-heading"><div><div class="eyebrow muted">A CLOSER LOOK <span> / 02</span></div><h3>Your data, in focus<span class="heading-dot">.</span></h3><p id="preview-caption">Previewing clean records</p></div><span class="card-symbol">↗</span></div><div class="table-controls"><label class="search"><span>⌕</span><input id="search" type="search" placeholder="Search your data..." aria-label="Search clean rows"></label><button class="button export" type="button" id="download">↓ &nbsp; Export CSV</button></div><div class="table-wrap"><table><thead id="table-head"></thead><tbody id="table-body"></tbody></table></div><div class="table-footer"><span id="table-count">—</span><span>PREVIEW / 8 ROWS MAX</span></div></section>
+        <section class="card quality-card" id="quality"><div class="card-heading"><div><div class="eyebrow muted">THE DETAILS <span> / 03</span></div><h3>Column health<span class="heading-dot">.</span></h3><p>How complete is each field?</p></div><span class="card-symbol">✳</span></div><div id="columns" class="column-list"></div><div class="quality-note"><span>✧</span><div><strong>Good to know</strong><p id="quality-insight">Your data quality summary will appear here.</p></div></div></section>
+      </div>
+      <section class="import-strip" id="drop-zone"><div class="import-icon">↥</div><div><strong>Ready to explore your own data?</strong><p>Drop a CSV here or choose a file. Max 5 MB, 10,000 rows and 100 columns.</p></div><button class="button strip-button" id="choose-file-bottom" type="button">Choose a file ↗</button></section>
+      <p id="message" class="message" role="status" aria-live="polite"></p>
+      <input id="file-input" type="file" accept=".csv,text/csv" hidden>
+      <footer><span>BUILT FOR CURIOSITY <span class="heading-dot">✳</span> BY SATYENDRAAA</span><span>LOCAL-FIRST. ALWAYS.</span></footer>
+    </section>
+  </main>
+</div>
+</body>
+</html>
