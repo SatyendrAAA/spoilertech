@@ -17,7 +17,7 @@ Python tests के लिए GitHub Actions workflow भी जोड़ा ग
 ## 2. काम मिलने की संभावना बढ़ाएँ
 
 - इस repository में [`Data Lab`](portfolio/data-lab/README.md) नाम का browser-based dashboard और [`CSV Cleaner`](portfolio/csv-cleaner/README.md) नाम का command-line example है। इन्हें चलाकर समझें और अपनी समझ के अनुसार सुधारें। Data Lab AI नहीं है; यह नियमों के आधार पर डेटा की जाँच करता है। सिर्फ वही काम चुनें जिसे आप सुरक्षित और विश्वसनीय ढंग से बना सकते हैं।
-- यदि आपने profile repository पहले ही बनाया है, तो नया Data Lab प्रोजेक्ट प्रोफ़ाइल पर दिखाने के लिए `spoilertech` का अपडेटेड README फिर से अपने `SatyendrAAA/SatyendrAAA` repository में कॉपी करें। Data Lab का source GitHub पर है; interactive demo के लिए उसे static host पर अलग से प्रकाशित करना होगा।
+- [Data Lab का लाइव डेमो](https://satyendraaa.github.io/spoilertech/portfolio/data-lab/) GitHub Pages पर प्रकाशित है। यदि profile repository पहले ही बनाया है, तो डेमो का लिंक प्रोफ़ाइल पर दिखाने के लिए `spoilertech` का अपडेटेड README अपने `SatyendrAAA/SatyendrAAA` repository में कॉपी करें।
 - प्रोजेक्ट के README में समस्या, उपयोग के निर्देश, सीमाएँ और एक स्क्रीनशॉट या डेमो जोड़ें। निजी डेटा और API keys कभी commit न करें।
 - GitHub प्रोफ़ाइल पर अपने सबसे अच्छे, पूरे हुए repositories pin करें। `my_agent` अभी शुरुआती अवस्था में है; उसे तैयार उत्पाद की तरह पेश न करें।
 - अपनी वास्तविक क्षमता के अनुसार छोटे काम खोजें: open-source issues, स्थानीय व्यवसायों के लिए सरल डिजिटल काम, या भरोसेमंद freelance platforms। आवेदन में समस्या के अनुसार एक संक्षिप्त संदेश और प्रासंगिक प्रोजेक्ट लिंक दें।

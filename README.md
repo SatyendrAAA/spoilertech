@@ -22,7 +22,9 @@ I'm building my GitHub presence around practical ideas and learning in public. M
 
 ### ✨ [Data Lab](https://github.com/SatyendrAAA/spoilertech/tree/main/portfolio/data-lab)
 
-A local-first CSV dashboard for exploring data quality, spotting exact duplicates, searching a preview and exporting cleaned records. It runs in the browser without sending file contents to a server. [Explore the code and setup →](https://github.com/SatyendrAAA/spoilertech/tree/main/portfolio/data-lab)
+A local-first CSV dashboard for exploring data quality, spotting exact duplicates, searching a preview and exporting cleaned records. It runs in the browser without sending file contents to a server.
+
+[Explore the code and setup →](https://github.com/SatyendrAAA/spoilertech/tree/main/portfolio/data-lab) · [Try the live demo →](https://satyendraaa.github.io/spoilertech/portfolio/data-lab/)
 
 ### 🧹 [CSV Cleaner](https://github.com/SatyendrAAA/spoilertech/tree/main/portfolio/csv-cleaner)
 
