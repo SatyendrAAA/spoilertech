@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
+  <title id="title">SatyendrAAA — building practical digital solutions</title>
+  <desc id="desc">A dark blue profile banner with an abstract grid and teal accents.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#091329"/><stop offset="1" stop-color="#123d54"/></linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#69e3d2"/><stop offset="1" stop-color="#8ca5ff"/></linearGradient>
+    <pattern id="grid" width="42" height="42" patternUnits="userSpaceOnUse"><path d="M 42 0 L 0 0 0 42" fill="none" stroke="#99d8e6" stroke-opacity=".09"/></pattern>
+  </defs>
+  <rect width="1200" height="300" rx="20" fill="url(#bg)"/>
+  <rect width="1200" height="300" rx="20" fill="url(#grid)"/>
+  <circle cx="1080" cy="55" r="185" fill="none" stroke="#75e8d1" stroke-opacity=".13" stroke-width="32"/>
+  <circle cx="1080" cy="55" r="125" fill="none" stroke="#8ca5ff" stroke-opacity=".2"/>
+  <rect x="62" y="48" width="126" height="26" rx="13" fill="#70e1d0" fill-opacity=".14"/>
+  <text x="77" y="66" fill="#83ead9" font-family="Arial, sans-serif" font-size="12" font-weight="bold" letter-spacing="2">BUILD • LEARN</text>
+  <text x="62" y="142" fill="#f3f8ff" font-family="Arial, sans-serif" font-size="54" font-weight="bold">SATYENDRAAA</text>
+  <rect x="62" y="160" width="142" height="4" rx="2" fill="url(#accent)"/>
+  <text x="62" y="205" fill="#c8d8e8" font-family="Arial, sans-serif" font-size="22">Exploring AI, automation &amp; practical solutions</text>
+  <text x="62" y="250" fill="#86a9b9" font-family="Arial, sans-serif" font-size="15" letter-spacing="1">IDEAS  /  EXPERIMENTS  /  USEFUL TOOLS</text>
+</svg>

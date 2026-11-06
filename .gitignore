@@ -1,0 +1,4 @@
+# Python-generated files and local example output
+__pycache__/
+*.py[cod]
+portfolio/csv-cleaner/cleaned.csv

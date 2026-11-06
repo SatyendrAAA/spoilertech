@@ -8,9 +8,11 @@
 2. इस repository के `README.md` की पूरी सामग्री कॉपी करें और नए `SatyendrAAA` repository की default branch में `README.md` नाम से सेव करें।
 3. अपनी प्रोफ़ाइल `https://github.com/SatyendrAAA` खोलकर देखें। यदि README नहीं दिखता, तो repository के नाम, public visibility और default branch में फ़ाइल की मौजूदगी जाँचें।
 4. प्रोफ़ाइल में फोटो, संक्षिप्त bio और केवल वही संपर्क जानकारी जोड़ें जिसे आप सार्वजनिक रखना चाहते हैं।
-5. इस repository में बदलाव GitHub की `main` branch पर प्रकाशित करें। ऐसा होने के बाद ही प्रोफ़ाइल में दिया गया CSV Cleaner का लिंक काम करेगा।
+5. इस repository के नवीनतम बदलाव GitHub की `main` branch पर प्रकाशित करें। बैनर और project inquiry form की लिंक `main` पर बदलाव आने के बाद ही काम करेंगी। CSV Cleaner पहले से `main` पर मौजूद है।
 
-README में संपर्क के लिए `spoilertech` repository के public issues का लिंक है। GitHub issues सार्वजनिक होते हैं: वहाँ गोपनीय जानकारी, पासवर्ड या भुगतान विवरण न माँगें और न साझा करें।
+README में संपर्क के लिए `spoilertech` repository के public issues का लिंक है। नया inquiry form भी public है और केवल default branch पर प्रकाशित होने के बाद उपलब्ध होगा। GitHub issues सार्वजनिक होते हैं: वहाँ गोपनीय जानकारी, पासवर्ड या भुगतान विवरण न माँगें और न साझा करें। अगर form उपलब्ध न हो तो README में सामान्य issue का लिंक भी दिया है।
+
+Python tests के लिए GitHub Actions workflow भी जोड़ा गया है। इसे `main` पर प्रकाशित करने और repository में Actions सक्षम होने के बाद, CSV Cleaner या workflow में बदलाव वाली pushes और pull requests पर टेस्ट चलेंगे। Actions के परिणाम आने से पहले उन्हें सफल न मानें।
 
 ## 2. काम मिलने की संभावना बढ़ाएँ
 
