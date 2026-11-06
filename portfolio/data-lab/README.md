@@ -2,6 +2,8 @@
 
 A local-first CSV exploration and cleaning dashboard. Import a CSV and see record counts, missing cells, column completeness, exact duplicates, and a searchable preview. Download a cleaned CSV without sending the file to a server.
 
+**[Try the live demo →](https://satyendraaa.github.io/spoilertech/portfolio/data-lab/)**
+
 **This is a deterministic data tool, not an AI model, and it does not make predictions.** Once its static files have loaded, processing happens in your browser. The sample is fictional. Don't enter private information into public GitHub issues.
 
 ## Try it locally
@@ -38,4 +40,4 @@ Run from the repository root. Tests cover parsing, quality metrics, input valida
 
 ## Deployment
 
-This is a static site. To publish a demo, configure a static hosting service or GitHub Pages to serve the `portfolio/data-lab` directory. GitHub Pages' branch publishing only supports the repository root or `/docs`; publishing this subdirectory needs a build/deploy workflow or another host. Publishing the repository by itself does not make the interactive app a website.
+This static app is published with GitHub Pages from the repository's `main` branch and root folder. The nested `portfolio/data-lab/` directory is available under the corresponding path on the Pages site. Branch-based publishing serves the repository root or `/docs` and their included subdirectories; publishing the repository without enabling a static host does not make the app a website.
